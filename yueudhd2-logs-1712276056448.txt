@@ -1,0 +1,27 @@
+2024-04-05T00:08:50.133185+00:00 app[api]: Release v1 created by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:08:50.133185+00:00 app[api]: Initial release by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:08:50.344077+00:00 app[api]: Enable Logplex by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:08:50.344077+00:00 app[api]: Release v2 created by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:08:50.817322+00:00 app[api]: Stack changed from heroku-22 to container by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:08:50.830759+00:00 app[api]: Upgrade stack to container by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:08:50.830759+00:00 app[api]: Release v3 created by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:08:50.963701+00:00 app[api]: Release v4 created by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:08:50.963701+00:00 app[api]: Set API_ID, API_HASH, BOT_TOKEN, MONGO_DB_URI, OWNER_ID, STRING_SESSION, HEROKU_API_KEY, HEROKU_APP_NAME, LOGGER_ID config vars by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:08:51.000000+00:00 app[api]: Build started by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:12:08.062526+00:00 app[api]: Deployed worker (ce7bbdebcb25) by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:12:08.000000+00:00 app[api]: Build succeeded
+2024-04-05T00:12:08.062526+00:00 app[api]: Release v5 created by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:12:46.464338+00:00 heroku[worker.1]: Starting process with command `/bin/sh -c bash\ start`
+2024-04-05T00:12:24.274326+00:00 app[api]: Scaled to worker@1:Basic by user gfgftfhgyggrf@gmail.com
+2024-04-05T00:12:47.197439+00:00 heroku[worker.1]: State changed from starting to up
+2024-04-05T00:12:48.262987+00:00 heroku[worker.1]: Process exited with status 0
+2024-04-05T00:12:48.095665+00:00 app[worker.1]: [05-Apr-24 00:12:48 - INFO] - ZeMusic.core.mongo - Connecting to your Mongo Database...
+2024-04-05T00:12:48.095924+00:00 app[worker.1]: [05-Apr-24 00:12:48 - ERROR] - ZeMusic.core.mongo - Failed to connect to your Mongo Database.
+2024-04-05T00:12:48.289849+00:00 heroku[worker.1]: State changed from up to crashed
+2024-04-05T00:12:48.292444+00:00 heroku[worker.1]: State changed from crashed to starting
+2024-04-05T00:13:09.239873+00:00 heroku[worker.1]: Starting process with command `/bin/sh -c bash\ start`
+2024-04-05T00:13:09.868426+00:00 heroku[worker.1]: State changed from starting to up
+2024-04-05T00:13:10.799007+00:00 heroku[worker.1]: Process exited with status 0
+2024-04-05T00:13:10.677742+00:00 app[worker.1]: [05-Apr-24 00:13:10 - INFO] - ZeMusic.core.mongo - Connecting to your Mongo Database...
+2024-04-05T00:13:10.677915+00:00 app[worker.1]: [05-Apr-24 00:13:10 - ERROR] - ZeMusic.core.mongo - Failed to connect to your Mongo Database.
+2024-04-05T00:13:10.822802+00:00 heroku[worker.1]: State changed from up to crashed

@@ -1,0 +1,10 @@
+2024-03-14T12:13:49.108353+00:00 app[worker.1]:     return await self._client.send_photo(
+2024-03-14T12:13:49.108354+00:00 app[worker.1]:   File "/usr/local/lib/python3.9/site-packages/pyrogram/methods/messages/send_photo.py", line 186, in send_photo
+2024-03-14T12:13:49.108354+00:00 app[worker.1]:     reply_markup=await reply_markup.write(self) if reply_markup else None,
+2024-03-14T12:13:49.108354+00:00 app[worker.1]:   File "/usr/local/lib/python3.9/site-packages/pyrogram/types/bots_and_keyboards/inline_keyboard_markup.py", line 63, in write
+2024-03-14T12:13:49.108355+00:00 app[worker.1]:     buttons.append(await b.write(client))
+2024-03-14T12:13:49.108355+00:00 app[worker.1]:   File "/usr/local/lib/python3.9/site-packages/pyrogram/types/bots_and_keyboards/inline_keyboard_button.py", line 183, in write
+2024-03-14T12:13:49.108355+00:00 app[worker.1]:     user_id=await client.resolve_peer(self.user_id)
+2024-03-14T12:13:49.108355+00:00 app[worker.1]:   File "/usr/local/lib/python3.9/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 125, in resolve_peer
+2024-03-14T12:13:49.108356+00:00 app[worker.1]:     raise PeerIdInvalid
+2024-03-14T12:13:49.108357+00:00 app[worker.1]: pyrogram.errors.exceptions.bad_request_400.PeerIdInvalid: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it 

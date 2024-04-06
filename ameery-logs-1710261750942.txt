@@ -1,0 +1,10 @@
+2024-03-12T16:41:14.525744+00:00 app[worker.1]:     result = await self(request)
+2024-03-12T16:41:14.525744+00:00 app[worker.1]:   File "/app/.heroku/python/lib/python3.10/site-packages/telethon/client/users.py", line 30, in __call__
+2024-03-12T16:41:14.525744+00:00 app[worker.1]:     return await self._call(self._sender, request, ordered=ordered)
+2024-03-12T16:41:14.525745+00:00 app[worker.1]:   File "/app/.heroku/python/lib/python3.10/site-packages/telethon/client/users.py", line 87, in _call
+2024-03-12T16:41:14.525745+00:00 app[worker.1]:     result = await future
+2024-03-12T16:41:14.525745+00:00 app[worker.1]: telethon.errors.rpcerrorlist.FloodWaitError: A wait of 1066 seconds is required (caused by ImportBotAuthorizationRequest)
+2024-03-12T16:41:14.689421+00:00 app[worker.1]: [ERROR- 19:41:14]- asyncio- Unclosed client session
+2024-03-12T16:41:14.689423+00:00 app[worker.1]: client_session: <aiohttp.client.ClientSession object at 0x7fd2f2517fd0>- base_events.py- 1752
+2024-03-12T16:41:14.923275+00:00 heroku[worker.1]: Process exited with status 1
+2024-03-12T16:41:14.954463+00:00 heroku[worker.1]: State changed from up to crashed
